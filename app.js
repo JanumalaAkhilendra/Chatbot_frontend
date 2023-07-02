@@ -49,7 +49,7 @@ class Chatbox {
         fetch('https://ai-chat-bot-4.onrender.com/predict', {
             method: 'POST',
             body: JSON.stringify({ message: text1 }),
-            mode: 'cors',
+            mode: 'no-cors',
             headers: {
               'Content-Type': 'application/json'
             },
